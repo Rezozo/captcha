@@ -1,1 +1,1 @@
-# kapcha
+# captcha
