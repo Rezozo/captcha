@@ -1,4 +1,4 @@
-﻿namespace kapcha
+﻿namespace captcha
 {
     partial class CatForm
     {
@@ -46,7 +46,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::kapcha.Properties.Resources.cute_cat;
+            this.pictureBox2.Image = global::captcha.Properties.Resources.cute_cat;
             this.pictureBox2.Location = new System.Drawing.Point(125, 81);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(499, 402);

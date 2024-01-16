@@ -1,7 +1,7 @@
 ﻿using MaterialSkin.Controls;
 using System;
 
-namespace kapcha
+namespace captcha
 {
     public partial class CatForm : MaterialForm
     {

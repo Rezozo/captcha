@@ -1,4 +1,4 @@
-﻿namespace kapcha
+﻿namespace captcha
 {
     partial class CaptchaForm
     {
@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkKapcha = new MaterialSkin.Controls.MaterialFlatButton();
+            this.checkcaptcha = new MaterialSkin.Controls.MaterialFlatButton();
             this.CaptchaTxtB = new System.Windows.Forms.TextBox();
             this.captchaBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.captchaBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // checkKapcha
+            // checkcaptcha
             // 
-            this.checkKapcha.AutoSize = true;
-            this.checkKapcha.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.checkKapcha.Depth = 0;
-            this.checkKapcha.Location = new System.Drawing.Point(152, 237);
-            this.checkKapcha.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.checkKapcha.MouseState = MaterialSkin.MouseState.HOVER;
-            this.checkKapcha.Name = "checkKapcha";
-            this.checkKapcha.Primary = false;
-            this.checkKapcha.Size = new System.Drawing.Size(113, 36);
-            this.checkKapcha.TabIndex = 13;
-            this.checkKapcha.Text = "Проверить";
-            this.checkKapcha.UseVisualStyleBackColor = true;
-            this.checkKapcha.Click += new System.EventHandler(this.checkCapcha_Click);
+            this.checkcaptcha.AutoSize = true;
+            this.checkcaptcha.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.checkcaptcha.Depth = 0;
+            this.checkcaptcha.Location = new System.Drawing.Point(152, 237);
+            this.checkcaptcha.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.checkcaptcha.MouseState = MaterialSkin.MouseState.HOVER;
+            this.checkcaptcha.Name = "checkcaptcha";
+            this.checkcaptcha.Primary = false;
+            this.checkcaptcha.Size = new System.Drawing.Size(113, 36);
+            this.checkcaptcha.TabIndex = 13;
+            this.checkcaptcha.Text = "Проверить";
+            this.checkcaptcha.UseVisualStyleBackColor = true;
+            this.checkcaptcha.Click += new System.EventHandler(this.checkCapcha_Click);
             // 
             // CaptchaTxtB
             // 
@@ -73,7 +73,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 331);
             this.Controls.Add(this.captchaBox);
-            this.Controls.Add(this.checkKapcha);
+            this.Controls.Add(this.checkcaptcha);
             this.Controls.Add(this.CaptchaTxtB);
             this.Name = "CaptchaForm";
             this.Text = "Капча";
@@ -86,7 +86,7 @@
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialFlatButton checkKapcha;
+        private MaterialSkin.Controls.MaterialFlatButton checkcaptcha;
         private System.Windows.Forms.TextBox CaptchaTxtB;
         private System.Windows.Forms.PictureBox captchaBox;
     }

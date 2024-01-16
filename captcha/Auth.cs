@@ -3,7 +3,7 @@ using Npgsql;
 using System;
 using System.Windows.Forms;
 
-namespace kapcha
+namespace captcha
 {
     public partial class Auth : MaterialForm
     {

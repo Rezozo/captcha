@@ -1,6 +1,6 @@
 ﻿using Npgsql;
 
-namespace kapcha
+namespace captcha
 {
     internal class UserProvider
     {

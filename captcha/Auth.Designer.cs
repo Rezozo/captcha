@@ -1,4 +1,4 @@
-﻿namespace kapcha
+﻿namespace captcha
 {
     partial class Auth
     {
